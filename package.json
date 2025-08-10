@@ -1,0 +1,21 @@
+{
+  "name": "movie-match-api",
+  "version": "1.0.0",
+  "description": "Movie Match API",
+  "main": "movie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "search": "node movie.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuizJpaul/movie-match-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuizJpaul/movie-match-api/issues"
+  },
+  "homepage": "https://github.com/RuizJpaul/movie-match-api#readme"
+}
