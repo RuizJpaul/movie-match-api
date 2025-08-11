@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 
 async function getMovieByTitle(title) {
 
-    try{{
+    try{{ 
         const data = await fs.readFile('data/movies.csv','utf8');
         const lines = data.split('\n');
         const matchMovie = lines.find(line => line.includes(title));
@@ -29,5 +29,5 @@ function parseCsvLineToObject(line) {
 }
 
 module.exports= {
-    getMovieByTitle
+    getMovieByTitle,
 }
